@@ -1,1 +1,7 @@
+antigo/
+temp/
+teste/
+*-antigo.*
+*-temp.*
+*-teste.*
 startbootstrap-resume-gh-pages/

@@ -3639,7 +3639,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: rgba(255, 255, 0, 1); /* alterado por mim em 2025-09-02 - original: var(--bs-nav-link-hover-color) */
+  color: var(--bs-nav-link-hover-color);/* alterado por mim em 2025-09-02 -  rgba(255, 255, 0, 1);  */
 }
 .nav-link.disabled {
   color: var(--bs-nav-link-disabled-color);
@@ -3696,7 +3696,7 @@ textarea.form-control-lg {
 }
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: var(--bs-nav-pills-link-active-color);
+  color: rgba(255, 255, 0, 1); /* alterado por mim em 2025-09-02 - original: var(--bs-nav-pills-link-active-color); */
   background-color: var(--bs-nav-pills-link-active-bg);
 }
 
@@ -3793,7 +3793,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: rgba(255, 255, 0, 1); /* alterado por mim em 2025-09-02 - original: var(--bs-navbar-active-color); */
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -10825,7 +10825,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  padding-top: 3.375rem;
+  padding-top: 0; /* alterado por mim em 2025-09-03 - original:3.375rem */
   color: #6c757d;
 }
 
@@ -10851,6 +10851,7 @@ h6,
 
 h1, .h1 {
   line-height: 1;
+  text-transform: uppercase; /* inserido por mim em 2025-09-03 */
 }
 
 p.lead {
@@ -10865,7 +10866,7 @@ p.lead {
   font-size: 1.2rem;
 }
 
-.email {
+.email { /* inserido por mim em 2025-09-02 */
   font-size: 1.1rem;
 }
 
@@ -10898,7 +10899,7 @@ p.lead {
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
-    padding: 0.5rem;
+    padding: 0rem; /* alterado por mim em 2025-09-03 - original: 0.5rem */
   }
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
