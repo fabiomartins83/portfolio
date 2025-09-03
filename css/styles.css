@@ -170,7 +170,7 @@ h6, .h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem; /* alterado por mim em 2025-09-03 - original: 1rem; */
 }
 
 abbr[title] {
@@ -10924,13 +10924,13 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 1.8rem; /* alterado por mim em 2025-09-03 - original: 3.5rem */
+  width: 1.8rem; /* alterado por mim em 2025-09-03 - original: 3.5rem */
   background-color: #495057;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 0.3rem; /* alterado por mim em 2025-09-03 */
 }
 .social-icons .social-icon:last-child {
   margin-right: 0;
