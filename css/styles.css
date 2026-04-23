@@ -3782,7 +3782,7 @@ textarea.form-control-lg {
   --bs-nav-link-padding-x: 0;
   --bs-nav-link-padding-y: 0.5rem;
   --bs-nav-link-font-weight: ;
-  --bs-nav-link-color: var(--bs-navbar-color);
+  --bs-nav-link-color: #FFF; /* var(--bs-navbar-color) */
   --bs-nav-link-hover-color: var(--bs-navbar-hover-color);
   --bs-nav-link-disabled-color: var(--bs-navbar-disabled-color);
   display: flex;
@@ -3807,7 +3807,7 @@ textarea.form-control-lg {
 .navbar-text a,
 .navbar-text a:hover,
 .navbar-text a:focus {
-  color: var(--bs-navbar-active-color);
+  color: rgba(255, 255, 0, 1); /* alterado por mim em 2025-09-02 - original: var(--bs-navbar-active-color); */
 }
 
 .navbar-collapse {
